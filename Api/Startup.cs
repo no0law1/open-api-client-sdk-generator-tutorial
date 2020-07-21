@@ -47,12 +47,12 @@ namespace Api
                 endpoints.MapControllers();
             });
             
-            app.UseSwagger();
-            app.UseSwaggerUI(options =>
-            {
-                options.SwaggerEndpoint("/swagger/v1/swagger.json", "API V1");
-                options.SupportedSubmitMethods(SubmitMethod.Get);
-            });
+            // app.UseSwagger();
+            // app.UseSwaggerUI(options =>
+            // {
+            //     options.SwaggerEndpoint("/swagger/v1/swagger.json", "API V1");
+            //     options.SupportedSubmitMethods(SubmitMethod.Get);
+            // });
         }
     }
 }
