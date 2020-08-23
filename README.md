@@ -1,6 +1,8 @@
 # open-api-client-sdk-generator-tutorial
 Repository to teach a bit about how to generate a client sdk using Open Api specification
 
+* [Medium Article](https://medium.com/@no0law1/generate-client-sdk-for-net-core-using-open-api-no0law1-4767fa86a17f)
+
 ### Pre Requisites
 
 Before we begin, we are going to need two things:
